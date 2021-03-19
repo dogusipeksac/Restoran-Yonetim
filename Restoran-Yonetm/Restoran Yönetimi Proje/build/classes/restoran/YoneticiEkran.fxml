@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="687.0" prefWidth="1043.0" style="-fx-background-color: b1d5da;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restoran.YoneticiEkranController">
+   <children>
+      <TabPane layoutX="14.0" prefHeight="637.0" prefWidth="1020.0" style="-fx-background-color: b1d5da;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Mutfak">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: b1d5da;">
+                     <children>
+                        <TableView fx:id="malzemeTable" layoutX="308.0" layoutY="113.0" prefHeight="353.0" prefWidth="404.0">
+                          <columns>
+                            <TableColumn fx:id="malzemeAdSutun" onEditCommit="#mutfakMalzemeAdGuncelle" prefWidth="320.0" style="-fx-background-color: ref;" styleClass="-fx-background-color" text="MALZEME" />
+                            <TableColumn fx:id="malzemeAdetSutun" onEditCommit="#mutfakMalzemeAdetGuncelle" prefWidth="84.0" text="ADET/KG" />
+                          </columns>
+                        </TableView>
+                        <TextField fx:id="malzemeAdText" layoutX="308.0" layoutY="498.0" prefHeight="31.0" prefWidth="193.0" />
+                        <Label layoutX="551.0" layoutY="472.0" text="Adet :" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font></Label>
+                        <Label layoutX="308.0" layoutY="472.0" text="Malzeme Adi : " textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font></Label>
+                        <Button layoutX="308.0" layoutY="545.0" mnemonicParsing="false" onAction="#mutfakMalzemeEkle" prefHeight="31.0" prefWidth="70.0" style="-fx-background-color: white;" text="Ekle" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Button>
+                        <Button layoutX="386.0" layoutY="545.0" mnemonicParsing="false" onAction="#mutfakMalzemeSil" prefHeight="31.0" prefWidth="72.0" style="-fx-background-color: white;" text="Sil" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Button>
+                        <Label layoutX="56.0" layoutY="36.0" style="-fx-background-color: white;" text="MUTFAK KONTROLÜ" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="628.0" layoutY="560.0" mnemonicParsing="false" onAction="#mutfakDegisiklikKaydet" prefHeight="31.0" prefWidth="92.0" style="-fx-background-color: white;" text="Kaydet" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="malzemeAdetText" layoutX="551.0" layoutY="498.0" prefHeight="31.0" prefWidth="114.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab style="color: red;" text="MenuKontrol">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="menuKontrolTable" layoutX="63.0" layoutY="95.0" prefHeight="446.0" prefWidth="416.0">
+                          <columns>
+                            <TableColumn fx:id="kmenuAdSutun" onEditCommit="#menuAdGuncelle" prefWidth="258.0" text="Yemek/İçecek Adi" />
+                            <TableColumn fx:id="kmenuFiyatSutun" prefWidth="157.0" text="Fiyat" />
+                          </columns>
+                        </TableView>
+                        <TextField fx:id="yemekAdiText" layoutX="552.0" layoutY="162.0" />
+                        <TextField fx:id="fiyatText" layoutX="552.0" layoutY="220.0" />
+                        <Label layoutX="552.0" layoutY="142.0" text="Yemek Adi :" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <Label layoutX="552.0" layoutY="198.0" text="Fiyat :" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Label>
+                        <ComboBox fx:id="menuKontrolCombo" layoutX="329.0" layoutY="57.0" onAction="#menuKontrolCombobox" prefWidth="150.0" promptText="MENU" style="-fx-background-color: white;" />
+                        <Button layoutX="552.0" layoutY="260.0" mnemonicParsing="false" onAction="#menuEkle" style="-fx-background-color: white;" text="Ekle" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Button>
+                        <Label layoutX="56.0" layoutY="22.0" style="-fx-background-color: white;" text="MENU KONTROLÜ " textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="141.0" layoutY="549.0" mnemonicParsing="false" onAction="#menuSil" style="-fx-background-color: white;" text="Sil" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Button>
+                        <Button layoutX="63.0" layoutY="549.0" mnemonicParsing="false" onAction="#menuDegisiklikKaydet" style="-fx-background-color: white;" text="Kaydet" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Hesap">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea fx:id="adisyonTextArea" editable="false" layoutX="203.0" layoutY="108.0" prefHeight="452.0" prefWidth="614.0" />
+                        <Label fx:id="gunSonuLabel" layoutX="630.0" layoutY="69.0" prefHeight="38.0" prefWidth="102.0" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="203.0" layoutY="26.0" prefHeight="19.0" prefWidth="284.0" style="-fx-background-color: white;" text="Toplam Hesap" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="360.0" layoutY="71.0" mnemonicParsing="false" onAction="#hesapGoster" prefHeight="23.0" prefWidth="126.0" style="-fx-background-color: white;" text="Hesap Göster" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <ComboBox fx:id="adisyonCombo" layoutX="203.0" layoutY="74.0" prefHeight="25.0" prefWidth="151.0" promptText="Adisyon Türleri" style="-fx-background-color: white;" />
+                        <Label fx:id="gunSonuLabel1" layoutX="510.0" layoutY="78.0" prefHeight="19.0" prefWidth="126.0" text="Toplam Hesap :" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Organizasyon">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="620.0" prefWidth="1020.0">
+                     <children>
+                        <TableView fx:id="menuTable" layoutX="26.0" layoutY="182.0" prefHeight="356.0" prefWidth="421.0">
+                           <columns>
+                              <TableColumn fx:id="yemekAdiSutun" prefWidth="243.0" text="Yemek Adi" />
+                              <TableColumn fx:id="yemekFiyatSutun" prefWidth="177.60000000000002" text="Fiyat" />
+                           </columns>
+                        </TableView>
+                        <Label layoutX="26.0" layoutY="144.0" style="-fx-background-color: white;" text="MENU" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="organizasyonTable" layoutX="526.0" layoutY="182.0" prefHeight="356.0" prefWidth="453.0">
+                           <columns>
+                              <TableColumn fx:id="oyemekAdiSutun" prefWidth="316.79998779296875" text="Yemek Adi" />
+                              <TableColumn fx:id="oyemekFiyatSutun" prefWidth="126.4000244140625" text="Fiyat" />
+                           </columns>
+                        </TableView>
+                        <Label layoutX="526.0" layoutY="144.0" prefHeight="34.0" prefWidth="348.0" style="-fx-background-color: ffffff;" text="Organizasyon Yemek Menüsü" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="26.0" layoutY="550.0" mnemonicParsing="false" onAction="#organizasyonSiparisEkle" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: ffffff;" text="Ekle" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Button>
+                        <Button layoutX="526.0" layoutY="549.0" mnemonicParsing="false" onAction="#organizasyonOlustur" prefHeight="26.0" prefWidth="139.0" style="-fx-background-color: ffffff;" text="Organizasyon Olustur" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Button>
+                        <ComboBox fx:id="organizasyonCombo" layoutX="295.0" layoutY="148.0" onAction="#organizasyonMenuCombobox" prefWidth="150.0" promptText="MENU" style="-fx-background-color: ffffff;" />
+                        <TextField fx:id="organizasyonAdText" layoutX="26.0" layoutY="83.0" prefHeight="33.0" prefWidth="184.0" />
+                        <Label layoutX="26.0" layoutY="58.0" text="Organizasyon Adi :" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="266.0" layoutY="58.0" text="Kişi Sayisi:" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="675.0" layoutY="549.0" mnemonicParsing="false" onAction="#organizasyonSiparisHesapla" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: ffffff;" text="Toplam Hesap" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="kisiSayisi" layoutX="268.0" layoutY="82.0" prefHeight="34.0" prefWidth="102.0" />
+                        <Label fx:id="toplamLabel" layoutX="780.0" layoutY="551.0" prefHeight="23.0" prefWidth="102.0" text="Hesap Tutarı :" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="organizasyonHesaplaLabel" layoutX="861.0" layoutY="545.0" prefHeight="35.0" prefWidth="82.0" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="944.0" layoutY="549.0" mnemonicParsing="false" onAction="#organizasyonSiparisSil" prefHeight="26.0" prefWidth="35.0" style="-fx-background-color: ffffff;" text="Sil" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button layoutX="924.0" layoutY="638.0" mnemonicParsing="false" onAction="#cikis" prefHeight="31.0" prefWidth="82.0" style="-fx-background-color: white;" text="ÇIKIŞ" textFill="#80c8d2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

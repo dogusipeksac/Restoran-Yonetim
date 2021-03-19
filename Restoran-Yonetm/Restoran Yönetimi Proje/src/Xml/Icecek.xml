@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<icecek>
+    <fiyat>0</fiyat>
+    <icecek>
+        <adi>Icetea</adi>
+        <fiyat>5</fiyat>
+    </icecek>
+    <icecek>
+        <adi>Sprite</adi>
+        <fiyat>5</fiyat>
+    </icecek>
+    <icecek>
+        <adi>Kola</adi>
+        <fiyat>5</fiyat>
+    </icecek>
+    <icecek>
+        <adi>Yedigün</adi>
+        <fiyat>5</fiyat>
+    </icecek>
+    <icecek>
+        <adi>Fanta</adi>
+        <fiyat>5</fiyat>
+    </icecek>
+    <icecek>
+        <adi>Açık Ayran</adi>
+        <fiyat>3</fiyat>
+    </icecek>
+    <icecek>
+        <adi>Acılı Ayran</adi>
+        <fiyat>5</fiyat>
+    </icecek>
+</icecek>

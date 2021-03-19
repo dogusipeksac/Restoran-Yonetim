@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fastfood>
+    <fiyat>0</fiyat>
+    <fastFood>
+        <adi>Hamburger</adi>
+        <fiyat>10</fiyat>
+    </fastFood>
+    <fastFood>
+        <adi>Patetes Cips</adi>
+        <fiyat>7</fiyat>
+    </fastFood>
+    <fastFood>
+        <adi>Mega Menu</adi>
+        <fiyat>17</fiyat>
+    </fastFood>
+    <fastFood>
+        <adi>Super Samba </adi>
+        <fiyat>15</fiyat>
+    </fastFood>
+    <fastFood>
+        <adi>Patates</adi>
+        <fiyat>10</fiyat>
+    </fastFood>
+    <fastFood>
+        <adi>Şırdan</adi>
+        <fiyat>15</fiyat>
+    </fastFood>
+</fastfood>

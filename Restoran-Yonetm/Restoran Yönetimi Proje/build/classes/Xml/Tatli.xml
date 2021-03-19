@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tatli>
+    <fiyat>0</fiyat>
+    <tatli>
+        <adi>Baklava</adi>
+        <fiyat>20</fiyat>
+    </tatli>
+    <tatli>
+        <adi>Hurma</adi>
+        <fiyat>10</fiyat>
+    </tatli>
+    <tatli>
+        <adi>Künefe</adi>
+        <fiyat>15</fiyat>
+    </tatli>
+    <tatli>
+        <adi>Taş Kadayıf</adi>
+        <fiyat>3</fiyat>
+    </tatli>
+    <tatli>
+        <adi>Kaymanklı Dondurma</adi>
+        <fiyat>10</fiyat>
+    </tatli>
+    <tatli>
+        <adi>Acılı Künefe</adi>
+        <fiyat>15</fiyat>
+    </tatli>
+    <tatli>
+        <adi>Şeker Pare</adi>
+        <fiyat>16</fiyat>
+    </tatli>
+</tatli>

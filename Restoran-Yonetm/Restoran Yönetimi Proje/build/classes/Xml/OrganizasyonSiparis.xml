@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<organizasyonSiparis>
+    <fiyat>0</fiyat>
+    <kisiSayisi>0</kisiSayisi>
+    <orgList>
+        <fiyat>5</fiyat>
+        <siparisAdi>Icetea</siparisAdi>
+        <kisiSayisi>50</kisiSayisi>
+        <organizasyonAdi>Mezuniyet</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>50</kisiSayisi>
+        <organizasyonAdi>Ortaokul mezuniyet</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>5</fiyat>
+        <siparisAdi>Sprite</siparisAdi>
+        <kisiSayisi>50</kisiSayisi>
+        <organizasyonAdi>Ortaokul mezuniyet</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>25</fiyat>
+        <siparisAdi>Kebap</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Toplantı</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>5</fiyat>
+        <siparisAdi>Pilav</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Kadın matinesi</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>6</fiyat>
+        <siparisAdi>Fasulye</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Kadın matinesi</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Pizza</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Dogum gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>7</fiyat>
+        <siparisAdi>Patetes Cips</siparisAdi>
+        <kisiSayisi>100</kisiSayisi>
+        <organizasyonAdi>İftar</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>6</fiyat>
+        <siparisAdi>Fasulye</siparisAdi>
+        <kisiSayisi>100</kisiSayisi>
+        <organizasyonAdi>İftar</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>5</fiyat>
+        <siparisAdi>Pilav</siparisAdi>
+        <kisiSayisi>100</kisiSayisi>
+        <organizasyonAdi>İftar</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>5</fiyat>
+        <siparisAdi>Sprite</siparisAdi>
+        <kisiSayisi>100</kisiSayisi>
+        <organizasyonAdi>İftar</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>6</fiyat>
+        <siparisAdi>Fasulye</siparisAdi>
+        <kisiSayisi>12</kisiSayisi>
+        <organizasyonAdi>bunyamin</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Tava</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Tava</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Dogum Gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Kebablı Hamburger</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Kebab Partisi</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Lahmacunlu Kebab</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Kebab Partisi</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Acılı Künefe</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Kebab Partisi</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Acılı Ayran</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Kebab Partisi</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>3</fiyat>
+        <siparisAdi>Açık Ayran</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Dogum gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Acılı Ayran</siparisAdi>
+        <kisiSayisi>15</kisiSayisi>
+        <organizasyonAdi>Dogum gunu</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>8</fiyat>
+        <siparisAdi>Yaprak Sarması</siparisAdi>
+        <kisiSayisi>20</kisiSayisi>
+        <organizasyonAdi>Kadınlar Matinesi</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>6</fiyat>
+        <siparisAdi>Fasulye</siparisAdi>
+        <kisiSayisi>20</kisiSayisi>
+        <organizasyonAdi>Kadınlar Matinesi</organizasyonAdi>
+    </orgList>
+    <orgList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <kisiSayisi>10</kisiSayisi>
+        <organizasyonAdi>Gün</organizasyonAdi>
+    </orgList>
+</organizasyonSiparis>

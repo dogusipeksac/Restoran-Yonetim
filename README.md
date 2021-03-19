@@ -1,2 +1,2 @@
-# Restoran-Yonetim
-Java and Scene Builder
+# restoran-yonetim-sistemi
+Java ve Scene Builder

@@ -1,0 +1,6 @@
+Garson için :
+kullanýcý adý:Garson	
+þifre:12345
+Yonetici için :
+kullanýcý adi:Yonetici
+þifre:12345

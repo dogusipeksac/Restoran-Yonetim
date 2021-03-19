@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EvYemekleri>
+    <fiyat>0</fiyat>
+    <yemek>
+        <adi>Yaprak Sarması</adi>
+        <fiyat>8</fiyat>
+    </yemek>
+    <yemek>
+        <adi>Fasulye</adi>
+        <fiyat>6</fiyat>
+    </yemek>
+    <yemek>
+        <adi>Pilav</adi>
+        <fiyat>5</fiyat>
+    </yemek>
+    <yemek>
+        <adi>Tava</adi>
+        <fiyat>10</fiyat>
+    </yemek>
+    <yemek>
+        <adi>Kebap</adi>
+        <fiyat>25</fiyat>
+    </yemek>
+    <yemek>
+        <adi>Lahmacun</adi>
+        <fiyat>15</fiyat>
+    </yemek>
+    <yemek>
+        <adi>Lahmacunlu Kebab</adi>
+        <fiyat>15</fiyat>
+    </yemek>
+    <yemek>
+        <adi>Patlican Musakka</adi>
+        <fiyat>11</fiyat>
+    </yemek>
+    <yemek>
+        <adi>İçli Köfte</adi>
+        <fiyat>12</fiyat>
+    </yemek>
+</EvYemekleri>

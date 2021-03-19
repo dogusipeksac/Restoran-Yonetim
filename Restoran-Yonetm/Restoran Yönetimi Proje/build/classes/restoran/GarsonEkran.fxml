@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="636.0" prefWidth="992.0" style="-fx-background-color: b1d5da;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restoran.GarsonEkranController">
+   <children>
+      <TabPane layoutX="14.0" layoutY="14.0" prefHeight="577.0" prefWidth="959.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Masalar">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" onDragDetected="#masaSiparisEkle" prefHeight="558.0" prefWidth="954.0">
+                     <children>
+                        <TableView fx:id="masaMenuTable" layoutX="14.0" layoutY="139.0" prefHeight="356.0" prefWidth="433.0">
+                          <columns>
+                            <TableColumn fx:id="masaMenuYemekSutun" editable="false" prefWidth="243.0" text="Yemek Adi" />
+                              <TableColumn fx:id="masaMenuFiyatSutun" editable="false" prefWidth="189.0" text="Fiyat" />
+                          </columns>
+                        </TableView>
+                        <Label layoutX="14.0" layoutY="93.0" style="-fx-background-color: ffffff;" text="MENU" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="masaNoText" layoutX="582.0" layoutY="42.0" prefHeight="28.0" prefWidth="207.0" promptText="Masa Numarasi" />
+                        <Button layoutX="805.0" layoutY="41.0" mnemonicParsing="false" onAction="#masaNoAc" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: ffffff;" text="Masa Aç" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Button>
+                        <TableView fx:id="masaSiparisTable" layoutX="489.0" layoutY="139.0" prefHeight="356.0" prefWidth="433.0">
+                           <columns>
+                              <TableColumn fx:id="masaSiparisSutun" editable="false" prefWidth="243.0" text="Sipariş Adi" />
+                              <TableColumn fx:id="masaFiyatSutun" editable="false" prefWidth="189.0" text="Fiyat" />
+                           </columns>
+                        </TableView>
+                        <Label layoutX="489.0" layoutY="93.0" style="-fx-background-color: ffffff;" text="MASA BİLGİSİ" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="14.0" layoutY="502.0" mnemonicParsing="false" onAction="#masaSiparisEkle" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: ffffff;" text="Sipariş Ekle" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Button>
+                        <Button layoutX="489.0" layoutY="501.0" mnemonicParsing="false" onAction="#masaKapat" prefHeight="30.0" prefWidth="98.0" style="-fx-background-color: ffffff;" text="Masa Kapat" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Button>
+                        <ComboBox fx:id="masaCombo" layoutX="771.0" layoutY="105.0" onAction="#masaComboKontrol" prefWidth="150.0" promptText="MASALAR" style="-fx-background-color: ffffff;" />
+                        <ComboBox fx:id="masaMenuComb" layoutX="296.0" layoutY="105.0" onAction="#masaMenuCombo" prefWidth="150.0" promptText="MENU" style="-fx-background-color: ffffff;" />
+                        <Label fx:id="masaHesapLabel" layoutX="788.0" layoutY="499.0" prefHeight="35.0" prefWidth="78.0" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="879.0" layoutY="502.0" mnemonicParsing="false" onAction="#masaSiparisSil" prefHeight="30.0" prefWidth="43.0" style="-fx-background-color: ffffff;" text="Sil" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="602.0" layoutY="501.0" mnemonicParsing="false" onAction="#masaSiparisHesapla" prefHeight="30.0" prefWidth="78.0" style="-fx-background-color: ffffff;" text="Hesapla" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="masaHesapLabel1" layoutX="685.0" layoutY="506.0" text="Hesap Tutarı :" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Paket Servis">
+               <content>
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </content>
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="paketMenuTable" layoutX="15.0" layoutY="139.0" prefHeight="356.0" prefWidth="433.0">
+                           <columns>
+                              <TableColumn fx:id="paketMenuYemekSutun" prefWidth="243.0" text="Yemek Adi" />
+                              <TableColumn fx:id="paketMenuFiyatSutun" prefWidth="189.0" text="Fiyat" />
+                           </columns>
+                        </TableView>
+                        <Label layoutX="15.0" layoutY="93.0" style="-fx-background-color: white;" text="MENU" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="musteriAdiText" layoutX="14.0" layoutY="39.0" prefHeight="28.0" prefWidth="207.0" promptText="Müşteri Adi" />
+                        <TableView fx:id="paketSiparisTable" layoutX="479.0" layoutY="139.0" prefHeight="356.0" prefWidth="433.0">
+                           <columns>
+                              <TableColumn fx:id="paketSiparisSutun" prefWidth="243.0" text="Sipariş Adi" />
+                              <TableColumn fx:id="paketFiyatSutun" prefWidth="189.0" text="Fiyat" />
+                           </columns>
+                        </TableView>
+                        <Label layoutX="479.0" layoutY="93.0" style="-fx-background-color: white;" text="PAKET BİLGİSİ" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="14.0" layoutY="507.0" mnemonicParsing="false" onAction="#paketSiparisEkle" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: white;" text="Sipariş Ekle" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></Button>
+                        <Button layoutX="479.0" layoutY="508.0" mnemonicParsing="false" onAction="#paketSiparisOnayla" prefHeight="25.0" prefWidth="117.0" style="-fx-background-color: white;" text="Sipariş Onayla" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font></Button>
+                        <ComboBox fx:id="paketMenuComb" layoutX="298.0" layoutY="97.0" onAction="#paketMenuCombo" prefWidth="150.0" promptText="MENU" style="-fx-background-color: white;" />
+                        <TextField fx:id="adresText" layoutX="254.0" layoutY="39.0" prefHeight="28.0" prefWidth="386.0" promptText="Adres" />
+                        <TextField fx:id="telefonText" layoutX="669.0" layoutY="39.0" prefHeight="28.0" prefWidth="207.0" promptText="Telefon" />
+                        <Label fx:id="hesapLabel" layoutX="787.0" layoutY="504.0" prefHeight="35.0" prefWidth="66.0" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="13.0" layoutY="8.0" prefHeight="31.0" prefWidth="193.0" text="Müşteri Bilgisi" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="601.0" layoutY="507.0" mnemonicParsing="false" onAction="#paketSiparisHesapla" prefHeight="30.0" prefWidth="77.0" style="-fx-background-color: white;" text="Hesapla" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="paketHesapLabel" layoutX="686.0" layoutY="512.0" text="Hesap Tutarı :" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="876.0" layoutY="508.0" mnemonicParsing="false" onAction="#paketSiparisSil" prefHeight="21.0" prefWidth="35.0" style="-fx-background-color: white;" text="Sil" textFill="#80c8d2">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <Button layoutX="924.0" layoutY="592.0" mnemonicParsing="false" onAction="#cikis" prefHeight="26.0" prefWidth="53.0" style="-fx-background-color: white;" text="Çıkış" textFill="#80c8d2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

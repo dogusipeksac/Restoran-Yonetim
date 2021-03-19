@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<paketSiparis>
+    <fiyat>0</fiyat>
+    <paketList>
+        <fiyat>2</fiyat>
+        <siparisAdi>Pilav</siparisAdi>
+        <paketBilgisi>Volkan Üstekidağ Dağlıoğlu mahallesi 14002 sokak no:2 531216245 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>2</fiyat>
+        <siparisAdi>Pilav</siparisAdi>
+        <paketBilgisi>Volkan Üstekidağ Dağlıoğlu mahallesi 14002 sokak no:2 531216245 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <paketBilgisi>Doguş Bey Havuzlu bahçe mahallesi 123456789 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hamburger</siparisAdi>
+        <paketBilgisi>Bünyamin Akçadağ 12345678 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>7</fiyat>
+        <siparisAdi>Patetes Cips</siparisAdi>
+        <paketBilgisi>Doğuş Adana seyhan 50505 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Pizza</siparisAdi>
+        <paketBilgisi>Doğuş Adana seyhan 50505 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>7</fiyat>
+        <siparisAdi>Patetes Cips</siparisAdi>
+        <paketBilgisi>Volkan Üstekidağ XXXXX mahallesi YYYY Sokak No:Z  5312162545 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Tava</siparisAdi>
+        <paketBilgisi>dogus adana yok </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Hurma</siparisAdi>
+        <paketBilgisi>Volkan Üstekidağ 5312162545 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>6</fiyat>
+        <siparisAdi>Fasulye</siparisAdi>
+        <paketBilgisi>Volkan Üstekidağ 5312162545 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>10</fiyat>
+        <siparisAdi>Tava</siparisAdi>
+        <paketBilgisi>Volkan Üstekidağ 5312162545 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>6</fiyat>
+        <siparisAdi>Fasulye</siparisAdi>
+        <paketBilgisi>volkan üstekidağ 5312162545 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>25</fiyat>
+        <siparisAdi>Kebap</siparisAdi>
+        <paketBilgisi>doğuş ipeksaç 531214578 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>8</fiyat>
+        <siparisAdi>Yaprak Sarması</siparisAdi>
+        <paketBilgisi>bekir demir 5115455545 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>5</fiyat>
+        <siparisAdi>Kola</siparisAdi>
+        <paketBilgisi>Dogus Adana 505055 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>5</fiyat>
+        <siparisAdi>Kola</siparisAdi>
+        <paketBilgisi>Dogus Adana 505055 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>7</fiyat>
+        <siparisAdi>Patetes Cips</siparisAdi>
+        <paketBilgisi>Dogus adanalı adana 0101010101 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Pizza</siparisAdi>
+        <paketBilgisi>Volkan Üstekidağ Havuzlubahçe mahallesi x sokak no :2 5312162545 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>15</fiyat>
+        <siparisAdi>Pizza</siparisAdi>
+        <paketBilgisi>Doğuş İpeksaç Adana 5112112255 </paketBilgisi>
+    </paketList>
+    <paketList>
+        <fiyat>5</fiyat>
+        <siparisAdi>Yedigün</siparisAdi>
+        <paketBilgisi>Doğuş İpeksaç Adana 5112112255 </paketBilgisi>
+    </paketList>
+</paketSiparis>
